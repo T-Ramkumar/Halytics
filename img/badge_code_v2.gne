@@ -1,0 +1,29 @@
+var b_txt = '';
+
+// Write a warning for the developer
+b_txt+= '<!-- DEVELOPER WARNING: The Flickr badge code is likely to be deprecated, and we recommend changing to a new method to embed photo as soon as possible.  See https://www.flickr.com/api for information on how to access Flickr data. Thanks. -->';
+
+// write the badge
+	
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image1"><a href="http://www.flickr.com/photos/oprisco/28034302217/"><img src="http://farm2.staticflickr.com/1766/28034302217_d4345fa898_s.jpg" alt="A photo on Flickr" title="***" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image2"><a href="http://www.flickr.com/photos/oprisco/26411192748/"><img src="http://farm5.staticflickr.com/4762/26411192748_5563a228ff_s.jpg" alt="A photo on Flickr" title="***" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image3"><a href="http://www.flickr.com/photos/oprisco/26808870249/"><img src="http://farm5.staticflickr.com/4545/26808870249_421ec3e5e2_s.jpg" alt="A photo on Flickr" title="***" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image4"><a href="http://www.flickr.com/photos/oprisco/23786557318/"><img src="http://farm5.staticflickr.com/4466/23786557318_e75c459cc4_s.jpg" alt="A photo on Flickr" title="***" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image5"><a href="http://www.flickr.com/photos/oprisco/36853043482/"><img src="http://farm5.staticflickr.com/4333/36853043482_8af2646c85_s.jpg" alt="A photo on Flickr" title="***" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image6"><a href="http://www.flickr.com/photos/oprisco/35325974455/"><img src="http://farm5.staticflickr.com/4203/35325974455_86ff34f31b_s.jpg" alt="A photo on Flickr" title="***" height="75" width="75"></a></div>';
+
+b_txt += '<span style="position:absolute;left:-999em;top:-999em;visibility:hidden" class="flickr_badge_beacon"><img src="http://geo.yahoo.com/p?s=792600102&t=38d379b61c649d50d04d729cd425d231&r=http%3A%2F%2Fevent-theme.com%2Fthemes%2Fdrivemewp%2F&fl_ev=0&lang=en&intl=us" width="0" height="0" alt="" /></span>';
+
+document.write(b_txt);
